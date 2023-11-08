@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #3494E6, #EC6EAD);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+h1 {
+    color: #FF5757;
+}
+
+.calculator {
+    margin: 20px 0;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #FF5757;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #D94141;
+}
+
+.result {
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+#total-amount, #interest-earned {
+    font-weight: bold;
+    color: #FF5757;
+}
